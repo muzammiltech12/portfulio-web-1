@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    background-color: rgb(149, 149, 238);
+    font-family: 'Bebas Neue', sans-serif;
+    width: 230px;
+    height: 100vh;
+    font-weight: 900;
+    font-size: 27px;
+}
+
+.sidebar nav {
+    padding: 55px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 35px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: rgb(157, 212, 230);
+    width: 90vw; 
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    color: rgb(5, 3, 3);
+}
+
+.infocontainer {
+    background-color: rgb(194, 208, 252);
+    height: 70vh;
+    width: 83vw;
+    margin: 105px auto;
+    justify-content: space-around;
+    display: flex; 
+    /* flex-wrap: nowrap; */
+}
+
+.hello {
+    font-family: 'Whisper', cursive;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+.name {
+    font-family: 'Whisper', cursive;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+.about {
+    font-family: 'Whisper', cursive;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.moreabout {
+    font-family: 'Whisper', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.devpic img {
+    height: 70vh;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.button button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 35px;
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    margin: 0px 4px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: white;
+    color: navy;
+}
+
+.contactform {
+    padding: 0px 100px;
+    padding-top: 100px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.contactform h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 40px;
+    padding-right: 250px;
+    padding-bottom: 12px;
+}
+
+.contactform form div {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: maroon;
+    margin-left: 10px;
+    padding-bottom: 2px;
+}
+
+.form-control {
+    width: 20vw;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 6px 3px;
+    margin-bottom: -10px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 15px;
+    margin-bottom: 1px;
+}
+
+.btn {
+    padding: 7px;
+    font-size: 10px;
+    border-radius: 15px;
+    background-color: rgb(78, 78, 229);
+    color: white;
+    font-weight: bold;
+    margin: 0px 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(78, 78, 229);
+}
+
+.blogitem {
+    margin: 15px 10px;
+}
+
+.blogitem h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 27px;
+    font-weight: 750;
+    padding-bottom: 5px;
+}
+
+.blogitem p {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 550;
+    font-style: italic;
+}
+
+.blogcontainer h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.intro h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 6px;
+}
+
+.intro p {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 550;
+    font-style: italic;
+    margin-left: 12px;
+}
+
+.skill-1 {
+    width: 200px;
+    height: 4.5px;
+    background-color: yellow;
+    border: 1.5px solid black;
+    margin-top: 5px;
+}
+
+.skill-2 {
+    width: 220px;
+    height: 4.5px;
+    background-color: green;
+    border: 1.5px solid black;
+    margin-top: 5px;
+
+}
+
+.skill-3 {
+    width: 10px;
+    height: 4.5px;
+    background-color: red;
+    border: 1.5px solid black;
+    margin-top: 5px;
+
+}
+
+.skill-4 {
+    width: 10px;
+    height: 4.5px;
+    background-color: blueviolet;
+    border: 1.5px solid black;
+    margin-top: 5px;
+}
+
+.skill-5 {
+    width: 10px;
+    height: 4.5px;
+    background-color: gold;
+    border: 1.5px solid black;
+    margin-top: 5px;
+}
+
+.skill-6 {
+    width: 10px;
+    height: 4.5px;
+    background-color: blue;
+    border: 1.5px solid black;
+    margin-top: 5px;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
